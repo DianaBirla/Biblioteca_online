@@ -96,7 +96,7 @@ public class Vizualizare_detalii_carte extends JFrame {
 				table.setRowHeight(30);
 				
 				JLabel lblNewLabel_2 = new JLabel("");
-				lblNewLabel_2.setIcon(new ImageIcon(Vizualizare_detalii_carte.class.getResource("/vizualizare_c1.png")));
+				lblNewLabel_2.setIcon(new ImageIcon(Vizualizare_detalii_carte.class.getResource("src/main/resources/vizualizare_c1.png")));
 				lblNewLabel_2.setBounds(0, 0, 1362, 1033);
 				contentPane.add(lblNewLabel_2);
 	}

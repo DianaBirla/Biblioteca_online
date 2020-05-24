@@ -68,7 +68,7 @@ public class Lista_carti_interfata extends JFrame {
 		scrollPane.setViewportView(table);
 		CitireJsonCarti car = new CitireJsonCarti();
 		car.get_nr_titluri();
-		int nr=car.get_nr();
+		final int nr=car.get_nr();
 		int aux=0;
 		while(aux!=nr)
 		{

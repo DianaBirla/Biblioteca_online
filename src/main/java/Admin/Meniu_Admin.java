@@ -67,7 +67,7 @@ public class Meniu_Admin extends JFrame {
 		getContentPane().add(lblNewLabel);
 		
 		JLabel lblNewLabel_1 = new JLabel("");
-		lblNewLabel_1.setIcon(new ImageIcon(Meniu_Admin.class.getResource("/im.png")));
+		lblNewLabel_1.setIcon(new ImageIcon(Meniu_Admin.class.getResource("src/main/resources/im.png")));
 		lblNewLabel_1.setBounds(0, 0, 1902, 1033);
 		getContentPane().add(lblNewLabel_1);
 		
